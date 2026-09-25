@@ -1,4 +1,4 @@
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = "https://studymate-4tj1.onrender.com";
 
 export async function testBackend() {
   const response = await fetch(`${API_URL}/api/test`);
